@@ -18,7 +18,7 @@ jQuery(document).ready(function($){
 	checkWindowSize();
 	
 	/* prepend menu icon */
-	$('div.menu').prepend('<div id="menu-icon">Menu</div>');
+	$('div.menu').prepend('<div id="menu-icon">Afficher Tout</div>');
 	$('#menu-filter-wrap').prepend('<div id="menu-item-icon">Select Menu Item</div>');
 	
 	/* toggle nav */
