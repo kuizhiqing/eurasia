@@ -1,1 +1,3 @@
 color : #872b5e  rgb : 135 43 94
+
+wget --random-wait -r -p -e robots=off -U mozilla http://www.example.com

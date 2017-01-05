@@ -90,7 +90,7 @@ header[role=banner],nav[role=navigation], footer[role=contentinfo] {
                     <div id="site-heading">
                         <div id="site-title"><a href="" title="Eurasia Grill" rel="home">Eurasia Grill</a></div>
                         <div id="address">
-                            <a href="" >3 quai des rives neuves, 13001 Marseille</a>
+                            <a href="/information.php#map" >3 quai des rives neuves, 13001 Marseille</a>
                         </div>
                     </div>
 
@@ -99,7 +99,7 @@ header[role=banner],nav[role=navigation], footer[role=contentinfo] {
                             <a href="" >04 91 55 02 74</a>
                         </div>
                         <div id="horaires">
-                            <a href="" >Ouvert 7j/7     11h30-14h30/18h30-22h30</a>
+                            <a href="/information.php#time" >Ouvert 7j/7     11h30-14h30/18h30-22h30</a>
                         </div>
                     </div>
                 </div>

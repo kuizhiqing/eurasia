@@ -1,0 +1,663 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+. {
+border:none;	
+}
+img {
+border:none;
+}
+body {
+background:url(../accueil/bg_color.png) repeat-x;
+background-color:#050b03;
+min-height:1000px;
+margin:0;
+padding:0;
+}
+#page {
+margin:auto;
+width:1024px;
+height:870px;
+
+}
+
+
+/*Header*/
+
+#entete {
+border:0;
+background:url(../accueil/bg_entete.png) no-repeat top left;
+width:1024px;
+height:177px;
+}
+
+.logo {
+float:left;
+}
+.ft {
+height:79px;
+}
+.ft img {
+float:right;
+margin-right:10px;
+
+}
+/*Header menus*/
+.cmd a {
+float:left;
+line-height:70px;
+width:297px;
+height:70px;
+background:url(../accueil/entete_commande.png) no-repeat top left;
+}
+.cmd a:hover {
+background:url(../accueil/entete_commande_on.png) no-repeat top left;
+}
+.mn1 a {
+float:left;
+line-height:28px;
+width:103px;
+height:28px;
+background:url(../accueil/menu_compte.png) no-repeat 0 0;
+}
+.mn1 a:hover {
+background:url(../accueil/menu_compte_on.png) no-repeat 0 0;
+}
+.mn2 a {
+float:left;
+line-height:28px;
+width:105px;
+height:28px;
+background:url(../accueil/menu_plateau.png) no-repeat 0 0;
+}
+.mn2 a:hover {
+background:url(../accueil/menu_plateau_on.png) no-repeat 0 0;
+}
+.mn3 a {
+float:left;
+line-height:28px;
+width:89px;
+height:28px;
+background:url(../accueil/menu_even.png) no-repeat 0 0;
+}
+.mn3 a:hover {
+background:url(../accueil/menu_even_on.png) no-repeat 0 0;
+}
+.mn4 a {
+float:left;
+line-height:28px;
+width:113px;
+height:28px;
+background:url(../accueil/menu_livrai.png) no-repeat 0 0;
+}
+.mn4 a:hover {
+background:url(../accueil/menu_livrai_on.png) no-repeat 0 0;
+}
+.mn5 a {
+float:left;
+line-height:28px;
+width:100px;
+height:28px;
+background:url(../accueil/menu_contact.png) no-repeat 0 0;
+}
+.mn5 a:hover {
+background:url(../accueil/menu_contact_on.png) no-repeat 0 0;
+}
+.mn6 a {
+float:left;
+line-height:28px;
+width:173px;
+height:28px;
+background:url(../accueil/menu_telech.png) no-repeat 0 0;
+}
+.mn6 a:hover {
+background:url(../accueil/menu_telech_on.png) no-repeat 0 0;
+}
+
+/*main*/
+.corp {
+background:url(../accueil/bg_body.png) no-repeat;
+background-color:#7b8073;
+
+width:1024px;
+min-height:626px;
+}
+/*main - page d'accueil*/
+.gauche {
+background-color:#FFFFFF;
+float:left;
+margin-top:15px;
+width:392px;
+height:578px;
+}
+/*menus page d'accueil*/
+.g1 a {
+float:left;
+line-height:112px;
+width:194px;
+height:112px;
+background:url(../accueil/bd_menuoff_nvt.png) no-repeat 0 0;
+}
+.g1 a:hover {
+background:url(../accueil/bd_menu_nvt.png) no-repeat 0 0;
+}
+.g2 a {
+float:left;
+line-height:112px;
+width:189px;
+height:112px;
+background:url(../accueil/bd_menuoff_salade.png) no-repeat 0 0;
+}
+.g2 a:hover {
+background:url(../accueil/bd_menu_salade.png) no-repeat 0 0;
+}
+.g3 a {
+float:left;
+line-height:112px;
+width:194px;
+height:112px;
+background:url(../accueil/bd_menuoff_sushi.png) no-repeat 0 0;
+}
+.g3 a:hover {
+background:url(../accueil/bd_menu_sushi.png) no-repeat 0 0;
+}
+.g4 a {
+float:left;
+line-height:112px;
+width:189px;
+height:112px;
+background:url(../accueil/bd_menuoff_maki.png) no-repeat 0 0;
+}
+.g4 a:hover {
+background:url(../accueil/bd_menu_maki.png) no-repeat 0 0;
+}
+.g5 a {
+float:left;
+line-height:112px;
+width:194px;
+height:112px;
+background:url(../accueil/bd_menuoff_tataki.png) no-repeat 0 0;
+}
+.g5 a:hover {
+background:url(../accueil/bd_menu_tataki.png) no-repeat 0 0;
+}
+.g6 a {
+float:left;
+line-height:112px;
+width:189px;
+height:112px;
+background:url(../accueil/bd_menuoff_sashimi.png) no-repeat 0 0;
+}
+.g6 a:hover {
+background:url(../accueil/bd_menu_sashimi.png) no-repeat 0 0;
+}
+.g7 a {
+float:left;
+line-height:112px;
+width:194px;
+height:112px;
+background:url(../accueil/bd_menuoff_don.png) no-repeat 0 0;
+}
+.g7 a:hover {
+background:url(../accueil/bd_menu_don.png) no-repeat 0 0;
+}
+.g8 a {
+float:left;
+line-height:112px;
+width:189px;
+height:112px;
+background:url(../accueil/bd_menuoff_acco.png) no-repeat 0 0;
+}
+.g8 a:hover {
+background:url(../accueil/bd_menu_acco.png) no-repeat 0 0;
+}
+.g9 a {
+float:left;
+line-height:112px;
+width:194px;
+height:112px;
+background:url(../accueil/bd_menuoff_boisson.png) no-repeat 0 0;
+}
+.g9 a:hover {
+background:url(../accueil/bd_menu_boisson.png) no-repeat 0 0;
+}
+.g10 a {
+float:left;
+line-height:112px;
+width:189px;
+height:112px;
+background:url(../accueil/bd_menuoff_dessert.png) no-repeat 0 0;
+}
+.g10 a:hover {
+background:url(../accueil/bd_menu_dessert.png) no-repeat 0 0;
+}
+
+
+.centre {
+float:left;
+margin-top:15px;
+margin-left:3px;
+}
+.droite {
+float:left;
+margin-top:15px;
+margin-left:6px;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../accueil/bg_tag.png) no-repeat;
+	width:230px;
+	height:596px;
+	padding-top:20px;
+	padding-left:20px;
+}
+
+.droite h3 {
+	color:#775640;
+	
+}
+
+
+
+/*main - page de contenu*/
+	/*navigateur*/
+.nav {
+	float:left;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width:750px;
+	font-size:0.8em;
+}
+.nav ul {
+margin:0;
+list-style-type: none;
+}
+.nav ul li {
+float:left;
+position:relative;
+
+}
+.nav ul a, .nav ul a:visited {
+display:block; 
+text-decoration:none; 
+color:#fff; 
+width:auto; 
+height:40px;  
+background:#5a5b72; 
+padding-left:10px;
+padding-right:10px;
+line-height:2.5em;
+border:#66677e 1px solid;
+}
+.nav ul li ul {
+display: none;
+}
+.tb {
+margin-top:10px;
+border-collapse:collapse;
+font-size:1em;
+}
+/* specific to non IE browsers */
+.nav ul li:hover a {
+color:#a4c400; 
+background:#5a5b72; 
+border:#66677e 1px solid;
+}
+.nav ul li:hover ul {
+display:block; 
+position:absolute; 
+top:3em;
+margin-top:1px;
+left:-3.5em;
+width:100px;
+}
+.nav ul li:hover ul li ul {
+display: none;
+
+}
+.nav ul li:hover ul li a {
+display:block; 
+background:#a0a97f;  
+color:#fff; 
+height:auto; 
+line-height:1em; 
+padding:5px 10px; 
+width:120px;
+font-size:0.95em;
+border:none;
+opacity:0.95;
+filter: alpha(opacity=0.95);
+-ms-filter: "alpha(opacity=0.95)"; /* IE 8 */
+}
+
+.nav ul li:hover ul li a:hover {
+background:#e9ecd2; 
+color:#775640;
+}
+.nav ul li:hover ul li:hover ul {
+display:block; 
+position:absolute; 
+top:0;
+width:120px;
+}
+.nav ul li:hover ul li:hover ul.left {
+left:-150px;
+}
+/*[if lte IE 6]>*/
+.nav ul li a:hover {
+color:#a4c400; 
+background:#5a5b72;
+}
+.nav ul li a:hover ul {
+display:block; 
+position:absolute; 
+top:3em; 
+left:0;
+background:#b3c38a;
+
+}
+.nav ul li a:hover ul li a {
+display:block; 
+background:#a0a97f; 
+color:#a4c400; 
+height:auto; 
+line-height:1.5em; 
+padding:5px 10px; 
+width:120px;
+}
+.nav ul li a:hover ul li a.drop {
+background:#c9c9a7;
+}
+.nav ul li a:hover ul li a ul {
+visibility:hidden; 
+position:absolute; 
+height:0; 
+width:0;
+}
+.nav ul li a:hover ul li a:hover {
+background:#e9ecd2; color:#fff;
+}
+.nav ul li a:hover ul li a:hover ul {
+visibility:visible; 
+position:absolute; 
+top:0; 
+color:#fff;
+left:150px;
+}
+.nav ul li a:hover ul li a:hover ul.left {
+left:-150px;
+}
+
+
+/*Produit*/
+.contenu {
+float:left;
+width:737px;
+margin-left:5px;
+
+
+}
+.contenu2 {
+	float:left;
+width:900px;
+margin-left:10px;
+}
+
+.b1,.b2,.b3,.b4,.b1b,.b2b,.b3b,.b4b,.b{
+	display:block;overflow:hidden;}
+.b1,.b2,.b3,.b1b,.b2b,.b3b,.b4,.b4b{height:1px;}
+.b1,.b1b{margin:0 5px;}
+.b2,.b2b{margin:0 3px;border-width:2px;}
+.b3,.b3b{margin:0 2px;}
+.b4,.b4b{height:2px;margin:0 1px;}
+.d1{background:#5a5b72;}
+
+
+.ctn_txt {
+/*4e4f64*/
+padding: 0 2% 4% 2%;
+color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.ctn_txt a {
+	color:#CCC;
+	border: 1px solid #666;
+	text-decoration:none;
+	background:#000;
+	padding:1px 8px 1px 8px;
+	margin:3px;
+}
+.ctn_txt a:hover {
+	color:#fff;
+}
+.btn03 {
+    background: none repeat scroll 0 0 #000;
+    border: 1px solid #666;
+    color: #fff;
+    cursor: pointer;
+    height: 20px;
+    margin: 0 0 0 0;
+    width: 17px;
+}
+.ctn_txt h3 {
+	color:#CCC;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:20px;
+}
+.ctn {
+		font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	padding: 0 2% 3% 2%;
+	min-height:300px;
+
+}
+.ctn a {
+	color:#fff;
+	font-size:12px;
+	text-decoration:none;
+}
+.ctn a:hover {
+	text-decoration:underline;
+}
+.ctn h3 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:20px;
+	color:#CCC;
+}
+.ctn_img {
+	margin-left:15px;
+}
+.ctn p {
+	margin-left:15px;
+	margin-bottom:0px;
+	padding-bottom:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+}
+/*mon compte*/
+.btn01 {
+	margin-top:2%;
+	margin-left:5%;
+	float:left;
+}
+.btn01 a {
+	font-size:14px;
+	color:#a4c400;
+	text-decoration:none;
+	border:1px solid #CCC;
+	background-color:#fff;
+	padding:5px;
+	
+}
+.btn01 a:hover {
+	color:#775640;
+	text-decoration:none;
+}
+
+
+/*Panier*/
+.panier {
+	float:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	background:url(../accueil/bg_panier.png) no-repeat 0 0;
+	height:305px;
+	width:225px;
+	padding:10px;
+	margin-left:20px;
+}
+.panier h3,hr{
+	float:left;
+}
+.panier table {
+	float:left;
+		padding-left:20px;
+	padding-top:10px;
+}
+
+#panier_info {
+	float:left;
+	margin:5px;
+	width:220px;
+}
+#panier_img {
+	float:left;
+	margin-left:20px;
+}
+#moin a {
+	float:right;
+	line-height:10px;
+	background:url(../accueil/bt_moin.png) no-repeat 0 0;
+	height:11px;
+	width:11px;
+}
+#moin a:hover {
+		float:right;
+	line-height:10px;
+	background:url(../accueil/bt_moin_on.png) no-repeat 0 0;
+	height:11px;
+	width:11px;
+}
+#plus a {	float:left;
+	line-height:10px;
+	background:url(../accueil/bt_plus.png) no-repeat 0 0 ;
+	height:11px;
+	width:11px;
+}
+#plus a:hover {
+	float:left;
+	line-height:10px;
+	background:url(../accueil/bt_plus_on.png) no-repeat 0 0;
+	height:11px;
+	width:11px;
+}
+
+#cmd a {
+	float:left;
+	background:url(../accueil/bt_panier.png) no-repeat 0 0;
+	padding:5px 15px 8px 0px;
+	float:left;
+	text-decoration:none;
+	color:#775640;
+	width:143px;
+	margin-left:20%;
+	margin-top:5%;
+	}
+#cmd a:hover {
+	background:url(../accueil/bt_panier_on.png) no-repeat 0 0;
+}
+
+.panier h3,span {
+	color:#fff;
+}
+
+/*tags*/
+.tag {
+	float:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	background:url(../accueil/bg_tag.png) no-repeat;
+	width:225px;
+	height:575px;
+	padding-top:20px;
+	padding-left:20px;
+	margin-left:20px;
+}
+.tag h3 {
+	
+	color:#775640;
+	
+}
+
+#tag {
+	width:200px;
+}
+
+
+/*Footer*/
+.clear {
+	padding:5px;
+	clear:both;
+}
+.footer {
+background-image:url(../accueil/bg_pied.png);
+min-width:1024px;
+min-height:86px;
+
+}
+.footer a {
+text-decoration:none;
+font-size:9px;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+color:#524238;
+}
+.footer a:hover {
+text-decoration:underline;
+}
+.footlien {
+text-align:center;
+padding-top:25px;
+font-size:8px
+}
+.footlien a {
+font-size:11px;
+padding-left:6px;
+
+}
+.footer p {
+font-size:10px;
+text-align:right;
+margin-right:10px;
+margin-top:25px;
+}
+#page .corp .nav .Style1 {
+	width: 11px;
+}
+
+.tag_list {
+	margin-top: 10px;
+}
+
+.tag_list a {
+	color: #000000;
+	margin-right: 2px;
+	font-size: 16px;
+}
+
+.tag_list a.tag18_b {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.tag_list a.tag18 {
+	font-size: 18px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
