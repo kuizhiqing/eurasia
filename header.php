@@ -76,7 +76,7 @@ header[role=banner],nav[role=navigation], footer[role=contentinfo] {
             <div id="search-box-wrap">
                 <div id="search-box">
                     <div id="close-x">x</div>
-                    <form role="search" method="get" id="searchform" class="searchform" action="http://wprestaurateur.com/">
+                    <form role="search" method="get" id="searchform" class="searchform" action="">
                         <div>
                             <label class="screen-reader-text" for="s">Search for:</label>
                             <input type="text" value="" name="s" id="s">
@@ -88,7 +88,7 @@ header[role=banner],nav[role=navigation], footer[role=contentinfo] {
             <header id="branding" role="banner">
                 <div id="inner-header" class="clearfix">
                     <div id="site-heading">
-                        <div id="site-title"><a href="" title="Eurasia Grill" rel="home">Eurasia Grill</a></div>
+                        <div id="site-title"><a href="/" title="Eurasia Grill" rel="home">Eurasia Grill</a></div>
                         <div id="address">
                             <a href="/information.php#map" >3 quai des rives neuves, 13001 Marseille</a>
                         </div>
@@ -107,7 +107,9 @@ header[role=banner],nav[role=navigation], footer[role=contentinfo] {
                 <nav id="access" role="navigation">
                     <h1 class="assistive-text section-heading">Main menu</h1>
                     <div class="skip-link screen-reader-text"><a href="" title="Skip to content">Skip to content</a></div>
-                    <div class="menu"><div id="menu-icon"><?php echo $page; ?></div><ul id="menu-main" class="menu">
+                    <div class="menu">
+                    <div id="menu-icon"><?php echo $page; ?></div>
+                    <ul id="menu-main" class="menu">
                     <li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='index'){echo 'current-menu-item';} ?> menu-item-home menu-item-147">
                                 <a href="/">accueil</a></li>
                             <li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='chinois'){echo 'current-menu-item';} ?> page-item-118 "><a href="/chinois.php">chinois</a></li>
@@ -115,7 +117,7 @@ header[role=banner],nav[role=navigation], footer[role=contentinfo] {
                             <li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='desserts'){echo 'current-menu-item';} ?> menu-item-131"><a href="/desserts.php">desserts</a></li>
                             <li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='boissons'){echo 'current-menu-item';} ?> menu-item-117"><a href="/boissons.php">boissons</a></li>
                             <li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='menu'){echo 'current-menu-item';} ?> menu-item-126"><a href="/menu.php">menu</a></li>
-                            <li id="menu-item-151" class="menu-item menu-item-type-custom menu-item-object-custom <?php if($page=='information'){echo 'current-menu-item';} ?> menu-item-151"><a href="/information.php">information</a></li>
+                            <li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='information'){echo 'current-menu-item';} ?> menu-item-151"><a href="/information.php">information</a></li>
                         </ul></div>        
                 </nav><!-- #access -->
 
