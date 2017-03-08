@@ -1,4 +1,8 @@
 <?php
+if(!$inadmin){
+    header('Location: login.php'); 
+    die();
+}
 require_once('DB.php');
 ?>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
@@ -78,7 +82,12 @@ require_once('DB.php');
                           <option value="">non</option>
                           <option value="index" <?php if($raw['cat']=='index'){echo "selected";} ?>>index</option>
                           <option value="chinois" <?php if($raw['cat']=='chinois'){echo "selected";} ?>>chinois</option>
-                          <option value="japonais" <?php if($raw['cat']=='japonais'){echo "selected";} ?>>japonais</option>
+                          <option value="sushi" <?php if($raw['cat']=='sushi'){echo "selected";} ?>>sushi</option>
+                          <option value="futomaki" <?php if($raw['cat']=='futomaki'){echo "selected";} ?>>futomaki</option>
+                          <option value="mali" <?php if($raw['cat']=='mali'){echo "selected";} ?>>mali</option>
+                          <option value="california" <?php if($raw['cat']=='california'){echo "selected";} ?>>california mali</option>
+                          <option value="temaki" <?php if($raw['cat']=='temaki'){echo "selected";} ?>>temaki</option>
+                          <option value="sashimi" <?php if($raw['cat']=='sashimi'){echo "selected";} ?>>sashimi</option>
                           <option value="desserts" <?php if($raw['cat']=='desserts'){echo "selected";} ?>>desserts</option>
                           <option value="boissons" <?php if($raw['cat']=='boissons'){echo "selected";} ?>>boissons</option>
                         </select></td></tr> 

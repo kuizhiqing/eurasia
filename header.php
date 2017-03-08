@@ -54,6 +54,9 @@ img.emoji {
             footer[role=contentinfo] {
                 background-color: #872b5e;
             }
+            .japon-tabs { background: lightgray; box-shadow: 1px 1px 1px #000; position: absolute; z-index: 19999; width: 180px; word-wrap: break-word; overflow: visible;}
+            .japon-tabs li{min-width: 100%;border-bottom: 1px solid #e3e3e3;}
+            .japon-tabs a{color: #555 !important; border-radius: 0; box-shadow: none; padding: 10px 20px; font-family: "Droid Sans", Arial, Helvetica, sans-serif; font-weight: 700;font-size: 0.9rem; text-transform: uppercase;}
         </style>
 <?php if($page=="index"){ ?>
 <style type="text/css" id="custom-background-css">
@@ -96,7 +99,8 @@ header[role=banner],nav[role=navigation], footer[role=contentinfo] {
 
                     <div id="headright" class="clearfix">
                         <div id="telephone" class="clearfix">
-                            <a href="" >04 91 55 02 74</a>
+                            <a href="https://www.facebook.com/Eurasia-281829942190180/" target="_blank" class="social-fb" title="http://facebook.com">Facebook</a>
+                            <a href="" class="telephone" >04 91 55 02 74</a>
                         </div>
                         <div id="horaires">
                             <a href="/information.php#time" >Ouvert 7j/7     11h30-14h30/18h30-22h30</a>
@@ -113,12 +117,25 @@ header[role=banner],nav[role=navigation], footer[role=contentinfo] {
                     <li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='index'){echo 'current-menu-item';} ?> menu-item-home menu-item-147">
                                 <a href="/">accueil</a></li>
                             <li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='chinois'){echo 'current-menu-item';} ?> page-item-118 "><a href="/chinois.php">chinois</a></li>
-                            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='japonais'){echo 'current-menu-item';} ?> menu-item-116"><a href="/japonais.php">japonais</a></li>
+                            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='japonais'){echo 'current-menu-item';} ?> menu-item-116"><a href="#@" onclick="document.getElementById('japon-tabs').style.display = 'block'">japonais</a>
+
+                    <div class="japon-tabs" id="japon-tabs" style="display:none;">
+                        <ul id="menu-main" class="menu" style="display: block;">
+                            <li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page  page-item-118 "><a href="/japonais.php?page=sushi">Sushi </a></li>
+                            <li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-116"><a href="/japonais.php?page=futomaki">Futomaki</a></li>
+                            <li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-131"><a href="/japonais.php?page=mali">Mali</a></li>
+                            <li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-117"><a href="/japonais.php?page=california">California Mali</a></li>
+                            <li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-126"><a href="/japonais.php?page=temaki">Temaki</a></li>
+                            <li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-151"><a href="/japonais.php?page=sashimi">Sashimi</a></li>
+                        </ul>
+                    </div>        
+</li>
                             <li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='desserts'){echo 'current-menu-item';} ?> menu-item-131"><a href="/desserts.php">desserts</a></li>
                             <li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='boissons'){echo 'current-menu-item';} ?> menu-item-117"><a href="/boissons.php">boissons</a></li>
                             <li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='menu'){echo 'current-menu-item';} ?> menu-item-126"><a href="/menu.php">menu</a></li>
                             <li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page <?php if($page=='information'){echo 'current-menu-item';} ?> menu-item-151"><a href="/information.php">information</a></li>
-                        </ul></div>        
+                        </ul>
+                    </div>
                 </nav><!-- #access -->
 
             </header><!-- #branding -->

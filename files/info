@@ -1,3 +1,21 @@
 color : #872b5e  rgb : 135 43 94
 
 wget --random-wait -r -p -e robots=off -U mozilla http://www.example.com
+
+Sushi 
+Futomaki
+Mali
+California Mali
+Temaki
+Sashimi
+
+
+display: block;
+    background: ghostwhite;
+        box-shadow: 1px 1px 1px #000;
+            position: absolute;
+                z-index: 9999;
+                    width: 160px;
+                        word-wrap: break-word;
+                            /* display: none; */
+                                overflow: visible;

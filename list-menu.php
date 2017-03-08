@@ -1,6 +1,6 @@
 <style>
 header h2.entry-title{margin-bottom:1px;}
-article.menu_item{background-color: beige;}
+article.menu_item{background-color: ghostwhite;}
 </style>
 <div id="content" class="clearfix">
     <div id="main" class="clearfix" role="main">

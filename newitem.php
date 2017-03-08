@@ -1,4 +1,8 @@
 <?php
+if(!$inadmin){
+    header('Location: login.php'); 
+    die();
+}
 ?>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.form.js"></script>
@@ -68,9 +72,14 @@
                           <option value="" selected>non</option>
                           <option value="index">index</option>
                           <option value="chinois">chinois</option>
-                          <option value="japonais">japonais</option>
-                          <option value="desserts">desserts</option>
-                          <option value="boissons">boissons</option>
+                          <option value="sushi">sushi</option>
+                          <option value="futomaki" >futomaki</option>
+                          <option value="mali" >mali</option>
+                          <option value="california">california mali</option>
+                          <option value="temaki" >temaki</option>
+                          <option value="sashimi" >sashimi</option>
+                          <option value="desserts" >desserts</option>
+                          <option value="boissons" >boissons</option>
                         </select></td></tr> 
                         <tr><td>description2</td><td><input type="text" name="desc2" /></td></tr>
                         <tr><td></td><td><input type="submit" value="add" /></td><tr>
